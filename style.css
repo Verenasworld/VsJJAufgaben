@@ -11,7 +11,7 @@ hr{
 
 h1,h2{
     text-align: center;
-    margin: 0.5rem;
+    margin: 0.8rem;
 }
 
 h3{
@@ -28,7 +28,13 @@ button{
     color: white;
 }
 
-.aufgabe1,.inputfieldsSection,.buttonsection, .resultsection{
+.in{
+    padding: 1rem;
+    font-size: 1rem;
+    margin: 0 1rem 0 0;
+}
+
+.aufgabe1,.inputfieldsSection,.buttonsection, .resultsection,.area{
     display: flex;
     flex-direction: row;
     justify-content: center;

@@ -1,7 +1,8 @@
+
+
+
 //aufgabe 1
 let counter = 0;
-
-
 function incrementClick() {
     updateDisplay(++counter);
 }
@@ -18,9 +19,6 @@ function calculation(operator){
     switch (operator){
         case "+" :
             result = n1 + n2;
-            //trainer war da !! aber so läuft es jetzt echt gut ich hab die variablen mit let deklariert und sie
-            //ausserhalb meiner funktion geschrieben ich dodl
-
             break;
         case "-" :
              result = n1 - n2;
