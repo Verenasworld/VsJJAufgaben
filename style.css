@@ -23,9 +23,16 @@ h3{
 
 button{
     font-size: 2rem;
-    padding: 0.5rem;
+    padding: 0.59rem;
     background-color: deeppink;
     color: white;
+    border: white;
+    text-transform: uppercase;
+}
+
+button:hover{
+    color: deeppink;
+    background: black;
 }
 
 .in{
@@ -39,6 +46,10 @@ button{
     flex-direction: row;
     justify-content: center;
     margin: 2rem;
+}
+
+.area button{
+    margin: 0 1rem 0 0;
 }
 
 .buttonsection button{
