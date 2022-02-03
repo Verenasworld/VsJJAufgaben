@@ -18,6 +18,7 @@ h3{
     font-size: 3rem;
     color: white;
     background-color: black;
+    padding: 0 1rem 0 1rem;
 }
 
 button{
@@ -27,8 +28,15 @@ button{
     color: white;
 }
 
-.aufgabe1{
+.aufgabe1,.inputfieldsSection,.buttonsection, .resultsection{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin: 2rem;
+}
+
+.buttonsection button{
+    margin: 0.5rem;
+    height: 4rem;
+    width: 4rem;
 }
