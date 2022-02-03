@@ -1,27 +1,26 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: Roboto, sans-serif;
 }
 
-
-hr{
+hr {
     width: 50%;
 }
 
-h1,h2{
+h1, h2 {
     text-align: center;
     margin: 0.8rem;
 }
 
-h3{
+h3 {
     font-size: 3rem;
     color: white;
     background-color: black;
     padding: 0 1rem 0 1rem;
 }
 
-button{
+button {
     font-size: 2rem;
     padding: 0.59rem;
     background-color: deeppink;
@@ -30,30 +29,33 @@ button{
     text-transform: uppercase;
 }
 
-button:hover{
+button:hover {
     color: deeppink;
     background: black;
 }
 
-.in{
+.buttonsection button {
+    margin: 0.5rem;
+    height: 4rem;
+    width: 4rem;
+}
+
+.area button {
+    margin: 0 1rem 0 0;
+}
+
+.calcNumber {
     padding: 1rem;
     font-size: 1rem;
     margin: 0 1rem 0 0;
 }
 
-.aufgabe1,.inputfieldsSection,.buttonsection, .resultsection,.area{
+.incrementTask, .inputfieldsSection, .buttonsection, .resultsection, .area {
     display: flex;
     flex-direction: row;
     justify-content: center;
     margin: 2rem;
 }
 
-.area button{
-    margin: 0 1rem 0 0;
-}
 
-.buttonsection button{
-    margin: 0.5rem;
-    height: 4rem;
-    width: 4rem;
-}
+

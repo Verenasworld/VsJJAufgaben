@@ -7,29 +7,32 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<h1>LEARNING JAVA SCRIPT</h1>
-<!--aufgabe 1 Klick Zähler -->
 
+<h1>LEARNING JAVA SCRIPT</h1>
 <hr>
+
+<!--Task1 Klick Zähler -->
 <h2>JS Click Counter</h2>
-<div class="aufgabe1">
+<div class="incrementTask">
     <div>
-        <h3 id="counter-label">0</h3>
+        <h3 id="counter">0</h3>
     </div>
-    <div >
+    <div>
         <button class="firstbtn" onclick="incrementClick()">Click Me</button>
     </div>
 </div>
 
 <hr>
-<!--aufgabe2 Taschenrechner-->
+
+<!--Task2 Taschenrechner-->
 <h2>Calculator</h2>
-<div class="aufgabe2">
-  <div class="inputfieldsSection">
-      <input class="in" type="number" name="" id="number1" placeholder="firstNumber">
-      <input class="in" type="number" name="" id="number2" placeholder="secondNumber">
-  </div>
+<div class="calculatorTask">
+    <div class="inputfieldsSection">
+        <input class="calcNumber" type="number" name="" id="number1" placeholder="firstNumber">
+        <input class="calcNumber" type="number" name="" id="number2" placeholder="secondNumber">
+    </div>
     <div class="buttonsection">
+        <!--onclcik function pass parameter calc_operator  -->
         <button type="button" onclick="calculation('+')">+</button>
         <button type="button" onclick="calculation('-')">-</button>
         <button type="button" onclick="calculation('*')">*</button>
@@ -42,27 +45,26 @@
 </div>
 
 <hr>
-<!--aufgabe 3 Text -->
+
+<!--Task3 Text Addieren -->
 <h2>Text Addition</h2>
 <div class="aufgabe3">
-   <div class="area">
-       <input type="text" name="" id="mytext" placeholder="hallooo"></input>
-       <button type="button" onclick="textAusgabe()">Click</button>
-       <button type="button" onclick="btnClear()">Clear</button>
-<!--       <button type="button" onclick="deletelastElement()"></button>-->
-   </div>
-   <div class="resultsection">
-       <h3 id="newtext">Ergebnis</h3>
-   </div>
+    <div class="area">
+        <input type="text" name="" id="mytext" placeholder="hallooo"></input>
+        <button type="button" onclick="textAusgabe()">Click</button>
+        <button type="button" onclick="btnClear()">Clear</button>
+        <!--     todo bonus Aufgabe -->
+        <!--       <button type="button" onclick="deletelastElement()"></button>-->
+    </div>
+    <div class="resultsection">
+        <h3 id="newtext">Result</h3>
+    </div>
 </div>
+
 <hr>
 
-<!--Aufgabe 4 FarbenMixer-->
+<!--Task 4 FarbenMixer-->
 <h2>Coler Mixer</h2>
-
-
-
-
 
 
 </body>
