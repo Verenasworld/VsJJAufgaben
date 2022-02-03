@@ -11,7 +11,7 @@ function updateDisplay(val) {
 }
 
 //Task 2 onclick Calc Function
-//
+//calc f take a parameter calls operator and add, sub, multi ore div the numbers you add
 function calculation(operator) {
     let n1 = parseInt(document.getElementById("number1").value);
     let n2 = parseInt(document.getElementById("number2").value);
